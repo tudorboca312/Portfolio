@@ -2,7 +2,7 @@ import React from "react";
 
 function Job({ job }) {
   let styling =
-    "w-2/3 h-56 border border-lightPurple p-5 rounded-xl flex flex-col justify-between ";
+    "w-2/3 h-fit border border-lightPurple p-5 rounded-xl flex flex-col justify-between ";
 
   return (
     <div
@@ -19,7 +19,7 @@ function Job({ job }) {
 
       <div className="flex flex-row justify-between text-lightpurple">
         <p>{job.time}</p>
-        <div className="flex flex-row gap-3 ">
+        <div className="flex flex-row gap-3 lg:flex-row sm:flex-col">
           <p>{job.startDate.toLocaleDateString()}</p>-
           <p>{job.endDate ? job.endDate.toLocaleDateString() : "Present"}</p>
         </div>

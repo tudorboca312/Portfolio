@@ -8,7 +8,8 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className="bg-darkgray min-w-fit text-white w-screen	">
+    // <div className="bg-darkgray min-w-fit text-white w-screen	">
+    <div className="bg-darkgray text-white w-screen	sm:overflow-hidden">
       <div className="pt-8">
         <Landing />
         <Skills />

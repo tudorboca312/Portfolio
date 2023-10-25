@@ -14,7 +14,7 @@ function Nav() {
       <a
         key={element}
         href={`#${element.toLowerCase()}`}
-        className="hover:text-lightpurple opacity-50"
+        className="hover:text-lightpurple opacity-50 "
       >
         {element}
       </a>
@@ -22,7 +22,7 @@ function Nav() {
   });
 
   return (
-    <div className="flex space-x-4 items-center cursor-pointer">{content}</div>
+    <div className="flex space-x-4 items-center cursor-pointer ">{content}</div>
   );
 }
 

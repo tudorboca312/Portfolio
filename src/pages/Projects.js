@@ -146,10 +146,10 @@ function Projects() {
   });
 
   return (
-    <div className="mt-36	ml-40 mr-40">
-      <section className="flex flex-row justify-between items-center">
+    <div className="mt-36 px-4 md:px-0 md:ml-40 md:mr-40">
+      <section className="flex flex-col md:flex-row justify-between items-center">
         <h1 className="text-5xl font-extrabold">Projects</h1>
-        <div className="flex flex-row items-center text-xl font-semibold text-lightpurple gap-9 ">
+        <div className="flex flex-row items-center text-xl font-semibold text-lightpurple gap-9 sm:mt-8 ">
           <div className="border border-lightPurple p-2 rounded-xl">
             Web Developing
           </div>
@@ -159,20 +159,22 @@ function Projects() {
         </div>
       </section>
       <section
-        id="excelent"
-        className="flex flex-row justify-center mt-24 sm:overflow-x-scroll sm:w-[800px] md:overflow-x-auto md:w-full"
+        id="excellent"
+        className="flex flex-col items-center md:flex-row md:justify-center mt-24 overflow-x-scroll"
       >
-        <div className="flex flex-row gap-14 md:gap-8 md:overflow-scroll sm:overflow-scroll">
+        <div className="flex flex-wrap gap-14 md:gap-8 justify-center">
           {renderProjects}
         </div>
       </section>
 
       <h1 className="text-5xl font-extrabold mt-24">Live Extensions</h1>
       <section
-        id="excelent"
-        className="flex flex-row justify-center mt-24 sm:overflow-x-scroll sm:w-[800px] md:overflow-x-auto md:w-full"
+        id="excellent"
+        className="flex flex-col items-center md:flex-row md:justify-center mt-24 overflow-x-scroll"
       >
-        <div className="flex flex-row gap-14 md:gap-8">{renderExtensions}</div>
+        <div className="flex flex-wrap gap-14 md:gap-8 justify-center">
+          {renderExtensions}
+        </div>
       </section>
     </div>
   );

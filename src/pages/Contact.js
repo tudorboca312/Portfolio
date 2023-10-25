@@ -8,13 +8,13 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="w-2/4 m-auto flex flex-col items-center mt-36 pb-36 "
+      className="w-full md:w-2/4 m-auto flex flex-col items-center px-4 md:px-0 mt-36 pb-36"
     >
       <p className="bg-lightBackgroundPurple rounded-full p-3 mb-6">
         📬 Contact
       </p>
-      <h1 className="font-extrabold text-6xl mb-16">Let's talk!</h1>
-      <div className="flex flex-row gap-20 mb-10 items-center">
+      <h1 className="font-extrabold text-4xl md:text-6xl mb-16">Let's talk!</h1>
+      <div className="flex flex-col md:flex-row gap-10 md:gap-20 mb-10 items-center w-full justify-center">
         <LinkComponent
           styles="h-10 w-40 flex justify-center items-center gap-2 border border-solid border-lightPurple rounded-2xl cursor-pointer hover:text-lighterpurple hover:border-lighterpurple text-lightpurple"
           text={`Let's talk!`}

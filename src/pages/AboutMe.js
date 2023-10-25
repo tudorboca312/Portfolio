@@ -6,13 +6,15 @@ function AboutMe() {
   return (
     <div
       id="about"
-      className="flex md:flex-row ml-40 mr-40 mt-44 gap-64 sm:flex-col sm:items-center"
+      className="flex flex-row  px-4 md:px-0 md:ml-40 md:mr-40 mt-44 md:gap-32 items-center md:flex-col sm:flex-col"
     >
-      <div>
+      <div className="mb-10 md:mb-0">
         <CirclePhoto imagePath={imagePath} />
       </div>
-      <div className="flex flex-col flex-wrap gap-5 justify-center">
-        <h1 className="text-6xl font-extrabold">Tudor Mihai Boca</h1>
+      <div className="flex flex-col flex-wrap gap-5 justify-center text-center md:text-left">
+        <h1 className="text-4xl md:text-6xl font-extrabold">
+          Tudor Mihai Boca
+        </h1>
         <div className="font-regular">
           <p className="inline-flex space-x-2 mb-8">
             <span>👋</span>
