@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e176fb8b.css",
+    "main.js": "/Portfolio/static/js/main.ca95f6ee.js",
+    "static/media/cineflix.png": "/Portfolio/static/media/cineflix.ddcf17b63e5a94d2fd82.png",
+    "static/media/Newsapp.png": "/Portfolio/static/media/Newsapp.7b19489dc8cdbef483a3.png",
+    "static/media/IMG_1568.jpeg": "/Portfolio/static/media/IMG_1568.b93161e1dfa591af4342.jpeg",
+    "static/media/Profile.jpg": "/Portfolio/static/media/Profile.981558cbd393bed3ac06.jpg",
+    "static/media/pokedex.png": "/Portfolio/static/media/pokedex.2d208844856d28624eec.png",
+    "static/media/quizzapp.png": "/Portfolio/static/media/quizzapp.0b16282f873b5bb62df6.png",
+    "static/media/jokeextension.png": "/Portfolio/static/media/jokeextension.e91b16afcc9cefb8d920.png",
+    "static/media/currencyconverter.png": "/Portfolio/static/media/currencyconverter.3dc3318ddb3f8d0a976c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e176fb8b.css.map": "/Portfolio/static/css/main.e176fb8b.css.map",
+    "main.ca95f6ee.js.map": "/Portfolio/static/js/main.ca95f6ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e176fb8b.css",
+    "static/js/main.ca95f6ee.js"
+  ]
+}
