@@ -5,7 +5,7 @@ import imagePath from "../photos/IMG_1568.jpeg";
 function AboutMe() {
   return (
     <div
-      id="aboutme"
+      id="about"
       className="flex md:flex-row ml-40 mr-40 mt-44 gap-64 sm:flex-col sm:items-center"
     >
       <div>
