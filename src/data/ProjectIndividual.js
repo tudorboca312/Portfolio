@@ -18,7 +18,7 @@ const projects = [
   {
     title: "CineFlix",
     description:
-      "An web application created with the purpose of finding the best movies of all genres. It contains the most popular 10 movies based on each genre. If you are more interested on the movie, you can click on it, and it has all the information about it, plus movie trailer",
+      "An independently developed web application designed to feature the top 10 movies across various genres. Each selection offers in-depth information and trailers. Created from scratch without tutorials to fully test and demonstrate my abilities.",
     tools: ["React JS, M UI, Web APIs"],
     photo: cineflix,
     urlGithub: "https://github.com/tudorboca312/cineflix",
