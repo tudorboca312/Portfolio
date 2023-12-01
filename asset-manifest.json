@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8ccbc833.css",
-    "main.js": "/Portfolio/static/js/main.7be9ae22.js",
+    "main.css": "/Portfolio/static/css/main.bbbca695.css",
+    "main.js": "/Portfolio/static/js/main.5a97b0af.js",
     "static/media/cineflix.png": "/Portfolio/static/media/cineflix.ddcf17b63e5a94d2fd82.png",
     "static/media/Newsapp.png": "/Portfolio/static/media/Newsapp.7b19489dc8cdbef483a3.png",
     "static/media/IMG_1568.jpeg": "/Portfolio/static/media/IMG_1568.b93161e1dfa591af4342.jpeg",
@@ -11,11 +11,11 @@
     "static/media/jokeextension.png": "/Portfolio/static/media/jokeextension.e91b16afcc9cefb8d920.png",
     "static/media/currencyconverter.png": "/Portfolio/static/media/currencyconverter.3dc3318ddb3f8d0a976c.png",
     "index.html": "/Portfolio/index.html",
-    "main.8ccbc833.css.map": "/Portfolio/static/css/main.8ccbc833.css.map",
-    "main.7be9ae22.js.map": "/Portfolio/static/js/main.7be9ae22.js.map"
+    "main.bbbca695.css.map": "/Portfolio/static/css/main.bbbca695.css.map",
+    "main.5a97b0af.js.map": "/Portfolio/static/js/main.5a97b0af.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ccbc833.css",
-    "static/js/main.7be9ae22.js"
+    "static/css/main.bbbca695.css",
+    "static/js/main.5a97b0af.js"
   ]
 }
