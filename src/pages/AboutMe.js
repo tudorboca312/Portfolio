@@ -6,56 +6,93 @@ function AboutMe() {
   return (
     <div
       id="about"
-      className="flex flex-row  px-4 md:px-0 md:ml-40 md:mr-40 mt-44 md:gap-32 items-center md:flex-col sm:flex-col"
+      className="flex flex-row px-4 md:px-0 md:ml-40 md:mr-40 mt-44 md:gap-32 items-center md:flex-col sm:flex-col"
     >
       <div className="mb-10 md:mb-0">
         <CirclePhoto imagePath={imagePath} />
       </div>
-      <div className="flex flex-col flex-wrap gap-5 justify-center text-center md:text-left">
+      <div className="flex flex-col gap-5 justify-center text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-extrabold">
           Tudor Mihai Boca
+          <br />
+          <span className="text-2xl">
+            A Dynamic Web Developer with a Diverse Tech Foundation
+          </span>
         </h1>
         <div className="font-regular">
-          <p className="inline-flex space-x-2 mb-8">
-            <span>👋</span>
-            <span className="opacity-50">
-              Hello! I'm Tudor Mihai Boca, but feel free to call me Tudor.
-              Pleasure to connect!
-            </span>
-          </p>
-          <p className="inline-flex space-x-2 mb-1">
-            <span>👨‍💻</span>
-            <span className="opacity-50">
-              I embarked on my web development journey in Romania, transitioning
-              into the tech sphere with roles in Technical Customer Service,
-              Junior System Administration, and ServiceNow Development over
-              three consecutive years. Since relocating to the USA in 2023, my
-              self-taught web development skills have found a new focal point.
-              I'm driven by a knack for problem-solving and a strong desire to
-              contribute to a collaborative team, striving for project success
-              and efficiency.
-            </span>
-          </p>
-          <p className="inline-flex space-x-2 mb-8">
-            <span>💡</span>
-            <span className="opacity-50">
-              Having spent a year each as a Service Desk Analyst and Junior
-              System Administrator, I developed a blend of customer-centric and
-              technical skills. This background equips me to navigate intricate
-              tech landscapes while ensuring superior customer satisfaction and
-              operational efficiency.
-            </span>
-          </p>
-          <p className="inline-flex space-x-2">
-            <span>🚀</span>{" "}
-            <span className="opacity-50">
-              As I step into the web development scene in a corporate world, I'm
-              pumped to put my diverse skill set to work, aiming for fresh and
-              effective web solutions. My portfolio, showcasing a variety of
-              projects and Google Chrome extensions, is a peek into my growing
-              expertise and the excitement I bring to the coding table.
-            </span>
-          </p>
+          <h1>🌍 From Romania to the USA: A Journey in Tech</h1>
+          <ul className="mb-8">
+            <li>
+              Age: <span className="opacity-50">25</span>
+            </li>
+            <li>
+              Origin: <span className="opacity-50">Romania</span>
+            </li>
+            <li>
+              Current Residence:{" "}
+              <span className="opacity-50">United States of America</span>
+            </li>
+          </ul>
+
+          <h1>
+            👨‍💻 Professional Evolution: Service Desk to System Administration
+          </h1>
+          <ul className="mb-8">
+            <li>
+              Starting Point:{" "}
+              <span className="opacity-50">
+                Embarked on my tech career as a Service Desk Analyst, dedicating
+                2 years and 1 month to developing customer support and technical
+                troubleshooting skills.
+              </span>
+            </li>
+            <li>
+              Next Step:{" "}
+              <span className="opacity-50">
+                Advanced to a Junior System Administrator role, furthering my
+                expertise in system management and optimization for 8 months.
+              </span>
+            </li>
+          </ul>
+
+          <h1>🇺🇸 New Beginnings: Diving into Web Development in the USA</h1>
+          <ul className="mb-8">
+            <li>
+              Relocation:{" "}
+              <span className="opacity-50">
+                Moved to the USA, a pivotal moment that steered me towards
+                exploring new career horizons.
+              </span>
+            </li>
+            <li>
+              Self-Taught Developer:{" "}
+              <span className="opacity-50">
+                In the past 2 years, I have fully immersed myself in learning
+                web development, mastering technologies such as HTML, CSS,
+                JavaScript, ReactJS, Redux, NodeJS, Tailwind CSS, Bootstrap,
+                Python, and SQL.
+              </span>
+            </li>
+          </ul>
+
+          <h1>💻 Portfolio Creation: Showcasing Skills and Projects</h1>
+          <ul className="mb-8">
+            <li>
+              Educational Pursuits:{" "}
+              <span className="opacity-50">
+                Completed various courses and learning paths, cementing my
+                foundation in web development.
+              </span>
+            </li>
+            <li>
+              Project Showcase:{" "}
+              <span className="opacity-50">
+                Developed a personal portfolio, highlighting a range of projects
+                that reflect my growing expertise and passion for innovative web
+                solutions.
+              </span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

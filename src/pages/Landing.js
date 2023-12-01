@@ -18,7 +18,7 @@ function Landing() {
 
       <div className="flex flex-col md:flex-row lg:flex-row mt-24 md:mx-40 lg:mx-20 mb-40 w-full sm:items-center sm:gap-10">
         <section className="flex-1 order-2 md:order-1 lg:order-1 mb-10 md:mb-0 lg:mb-0">
-          <div className="text-center sm:text-left lg:text-left">
+          <div className="text-center sm:text-left lg:text-left pl-20">
             <p className="text-xl w-40 h-11 bg-lightBackgroundPurple rounded-full mx-auto sm:mx-0 flex items-center justify-center font-extrabold">
               👋 Hello!
             </p>
